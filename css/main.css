@@ -1,0 +1,1031 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  overflow-x: hidden; }
+
+body img {
+  max-width: 100%; }
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle; }
+
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+  resize: vertical; }
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* ==========================================================================
+   General styles
+   ========================================================================== */
+body {
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif; }
+
+h2 {
+  color: #0b5983;
+  font-size: 3em;
+  /* 48/16 */
+  text-transform: uppercase;
+  font-weight: 600; }
+
+p {
+  color: #929292;
+  line-height: 1.8;
+  margin-bottom: 36px;
+  font-size: 1em; }
+
+/* ==========================================================================
+   Header 
+   ========================================================================== */
+header {
+  background-image: url(../img/headerbackground.png);
+  height: 928px;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+h1 {
+  font-size: 62px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ffffff;
+  margin-bottom: 48px;
+  font-weight: 600; }
+  h1 span {
+    color: #73c38a;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center; }
+
+.headertext {
+  position: relative;
+  top: 300px; }
+
+h3 {
+  color: #2075a4;
+  text-transform: uppercase;
+  font-size: 3em;
+  /* 48/16 */
+  margin-bottom: 68px;
+  font-weight: 600; }
+
+button.btn.btn-primary {
+  width: 340px;
+  height: 70px;
+  border-radius: 15px;
+  background-color: #2075a4;
+  font-size: 1.625em;
+  /* 26/16 */
+  text-transform: uppercase; }
+
+/* ==========================================================================
+   navbar 
+   ========================================================================== */
+.navbar-brand {
+  position: absolute;
+  top: 44px; }
+
+.navbar-default {
+  background-color: transparent;
+  border: none; }
+
+.navbar-default li a {
+  color: red; }
+
+ul.nav.navbar-nav.navbar-right {
+  background-color: #021628;
+  padding-right: 120px;
+  position: absolute;
+  right: 15px;
+  top: 84px; }
+
+nav.navbar.navbar-default.navbar-static-top li a {
+  color: #ffffff;
+  text-transform: uppercase; }
+
+/* ==========================================================================
+   newsletter  
+   ========================================================================== */
+section#newsletter {
+  padding: 40px 0; }
+  section#newsletter input[type="submit"] {
+    color: #fff;
+    font-size: 1.125em;
+    /* 18/16 */
+    text-transform: uppercase;
+    margin-left: 3px;
+    padding: 12px 22px;
+    border-radius: 10px;
+    background-color: #73c38a;
+    border: none; }
+  section#newsletter .iconnews {
+    float: left; }
+  section#newsletter h4 {
+    font-size: 22px;
+    color: #0b5983;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 10px;
+    line-height: 40px; }
+
+#newsletter form input[type="email"] {
+  background-color: #fff;
+  width: 60%;
+  color: #414141;
+  font-size: 0.875em;
+  /* 14/16 */
+  font-weight: 300;
+  padding: 18px 24px;
+  border: 2px solid #cccccc;
+  border-radius: 10px; }
+
+/* ==========================================================================
+   featurebox
+   ========================================================================== */
+.icon {
+  margin-top: 78px;
+  margin-bottom: 33px; }
+
+.first {
+  background-image: url(../img/box1background.png);
+  height: 300px;
+  max-width: 100%;
+  background-size: cover; }
+
+.second {
+  background-image: url(../img/box2background.png);
+  height: 300px;
+  max-width: 100%;
+  background-size: cover; }
+
+.third {
+  background-image: url(../img/box3background.png);
+  height: 300px;
+  max-width: 100%;
+  background-size: cover; }
+
+.fourt {
+  background-image: url(../img/box4background.png);
+  height: 300px;
+  max-width: 100%;
+  background-size: cover; }
+
+.featuretext p {
+  font-size: 1em;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+/* ==========================================================================
+   userlove
+   ========================================================================== */
+section#userlove {
+  padding: 187px 0; }
+  section#userlove h2 {
+    margin-bottom: 55px; }
+  section#userlove p {
+    margin-bottom: 36px; }
+  section#userlove h5 {
+    color: #73c38a;
+    font-size: 1em; }
+
+/* ==========================================================================
+  twd 
+  ========================================================================== */
+.number {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 1em;
+  color: #d5d8da;
+  display: block;
+  border-radius: 50%;
+  border: 1px solid #d5d8da;
+  width: 40px;
+  height: 40px;
+  line-height: 2.5em;
+  /* 40/16 */
+  opacity: .5; }
+
+section#twd {
+  padding: 187px 0;
+  background-color: #f3f7f9; }
+  section#twd h2 {
+    margin-bottom: 55px; }
+  section#twd .col-md-4 {
+    padding: 0;
+    margin: 0; }
+    section#twd .col-md-4 p {
+      margin-top: 0;
+      font-size: 1em;
+      color: #ffffff;
+      padding: 0; }
+  section#twd .icon {
+    margin-top: 70px;
+    margin-bottom: 34px; }
+  section#twd .col-md-12 p {
+    margin-top: 55px; }
+    section#twd .col-md-12 p span {
+      margin-top: 20px;
+      display: block; }
+
+.one {
+  background-image: url(../img/back1.png);
+  max-width: 100%;
+  min-height: 360px;
+  background-size: cover; }
+
+.two {
+  background-image: url(../img/back2.png);
+  max-width: 100%;
+  min-height: 360px;
+  background-size: cover; }
+
+.three {
+  background-image: url(../img/back3.png);
+  max-width: 100%;
+  min-height: 360px;
+  background-size: cover; }
+
+.four {
+  background-image: url(../img/back4.png);
+  max-width: 100%;
+  min-height: 360px;
+  background-size: cover; }
+
+.five {
+  background-image: url(../img/back5.png);
+  max-width: 100%;
+  min-height: 360px;
+  background-size: cover; }
+
+.six {
+  background-image: url(../img/back6.png);
+  max-width: 100%;
+  min-height: 360px;
+  background-size: cover; }
+
+/* ==========================================================================
+  simple
+  ========================================================================== */
+section#simple {
+  padding: 187px 0; }
+  section#simple h2 {
+    margin-bottom: 70px; }
+  section#simple p {
+    margin-top: 20px;
+    margin-bottom: 60px; }
+  section#simple .fa {
+    font-size: 5em;
+    /* 80/16 */
+    line-height: 3.5;
+    color: #d9d9d9; }
+
+/*
+ * Hide visually and from screen readers
+ */
+.hidden {
+  display: none !important; }
+
+/* ==========================================================================
+  that
+  ========================================================================== */
+section#that {
+  padding: 187px 0;
+  background-color: #f3f7f9; }
+  section#that a {
+    color: #a0d4ae;
+    border-bottom: 1px solid #a0d4ae; }
+  section#that h2 {
+    margin-bottom: 70px; }
+  section#that p {
+    margin-bottom: 70px; }
+  section#that h4 {
+    color: #8acc9d;
+    font-size: 1.875em;
+    /* 30/16 */ }
+  section#that .link {
+    border-radius: 20px;
+    background-color: #ffffff;
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+    height: 50px;
+    border: 1px solid black; }
+    section#that .link p {
+      padding: 10px; }
+
+/* ==========================================================================
+  absolute
+  ========================================================================== */
+section#absolute {
+  padding: 187px 0; }
+  section#absolute h2 {
+    margin-bottom: 70px; }
+
+/* ==========================================================================
+  get
+  ========================================================================== */
+section#get {
+  width: 100%;
+  height: 555px;
+  background-image: url(../img/backgroundget.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  section#get h2 {
+    color: #ffffff;
+    margin-top: 200px;
+    margin-bottom: 30px; }
+  section#get p {
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 1.375em;
+    /* 22/16 */ }
+  section#get .btn-success {
+    background-color: transparent;
+    color: #73c38a;
+    padding: 20px 30px;
+    border: 6px solid #73c38a;
+    font-size: 1.875em;
+    /* 30/16 */
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px; }
+
+/* ==========================================================================
+ pricing 
+  ========================================================================== */
+section#pricing {
+  padding: 187px 0; }
+  section#pricing h2 {
+    margin-bottom: 70px; }
+  section#pricing h5 {
+    font-size: 22px;
+    color: #73c38a;
+    margin-top: 40px; }
+  section#pricing .pricingbox {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: relative;
+    margin: 20px auto 70px auto; }
+    section#pricing .pricingbox p {
+      font-size: 1.375em;
+      /* 22/16 */ }
+  section#pricing .flag {
+    position: absolute;
+    top: 0;
+    right: 0; }
+  section#pricing .tablefree {
+    height: 293px;
+    display: block;
+    background-color: #78c590; }
+    section#pricing .tablefree h3 {
+      margin-top: 73px;
+      font-size: 23px;
+      text-transform: uppercase;
+      color: #ffffff;
+      margin-bottom: 23px; }
+    section#pricing .tablefree p {
+      font-size: 1.1875em;
+      /* 19/16 */
+      color: #ffffff; }
+  section#pricing .tablestarter {
+    height: 293px;
+    display: block; }
+  section#pricing .table .caption {
+    text-transform: uppercase; }
+    section#pricing .table .caption h3 {
+      font-size: 1.75em;
+      /* 28/16 */
+      margin: 0;
+      padding: 0; }
+  section#pricing h3 {
+    display: inline-block; }
+  section#pricing h3 span {
+    display: inline-block;
+    margin: 0;
+    padding: 0; }
+  section#pricing span i {
+    position: relative;
+    top: -23px; }
+  section#pricing p {
+    font-size: 0.875em;
+    /* 14/16 */
+    display: inline-block; }
+  section#pricing h6 {
+    margin: 0;
+    padding: 0; }
+  section#pricing .tablestarter {
+    -webkit-box-shadow: inset -7px 0px 16px -7px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: inset -7px 0px 16px -7px rgba(0, 0, 0, 0.26);
+    box-shadow: inset -7px 0px 16px -7px rgba(0, 0, 0, 0.26); }
+    section#pricing .tablestarter h3 {
+      color: #707070; }
+    section#pricing .tablestarter .caption {
+      height: 87px;
+      border-top: 1px solid #dcdcdc;
+      border-bottom: 1px solid #dcdcdc;
+      line-height: 5.4375em;
+      /* 87/16 */ }
+    section#pricing .tablestarter .price {
+      height: 118px;
+      background-color: #f2f2f2;
+      border-bottom: 1px solid #dcdcdc;
+      -webkit-box-shadow: inset -7px 0px 16px -7px rgba(0, 0, 0, 0.26);
+      -moz-box-shadow: inset -7px 0px 16px -7px rgba(0, 0, 0, 0.26);
+      box-shadow: inset -7px 0px 16px -7px rgba(0, 0, 0, 0.26); }
+      section#pricing .tablestarter .price h3 {
+        line-height: 1.2;
+        /* 60/16 */
+        color: #707070; }
+    section#pricing .tablestarter .description {
+      height: 88px;
+      border-bottom: 1px solid #dcdcdc; }
+      section#pricing .tablestarter .description h6 {
+        line-height: 5.5em;
+        /* 88/16 */ }
+  section#pricing .tablelite {
+    height: 305px;
+    display: block;
+    border: 1px solid #dcdcdc; }
+    section#pricing .tablelite h3 {
+      color: #73c38a; }
+    section#pricing .tablelite i {
+      color: #73c38a; }
+    section#pricing .tablelite .caption {
+      height: 94px;
+      border-bottom: 1px solid #dcdcdc; }
+      section#pricing .tablelite .caption h3 {
+        line-height: 94px;
+        /* 94/16 */ }
+    section#pricing .tablelite .price {
+      height: 118px;
+      background-color: #e3f3e8; }
+      section#pricing .tablelite .price h3 {
+        line-height: 1.2;
+        /* 60/16 */ }
+    section#pricing .tablelite .description {
+      height: 88px;
+      border-top: 1px solid #dcdcdc; }
+      section#pricing .tablelite .description h6 {
+        line-height: 5.5em;
+        /* 88/16 */ }
+  section#pricing .tableproduction {
+    background-color: #0b5983;
+    z-index: 222; }
+    section#pricing .tableproduction h3 {
+      color: #ffffff; }
+    section#pricing .tableproduction p {
+      color: #58b7eb; }
+    section#pricing .tableproduction i {
+      color: #ffffff; }
+    section#pricing .tableproduction .price {
+      height: 118px; }
+      section#pricing .tableproduction .price h3 {
+        line-height: 1.2;
+        /* 60/16 */ }
+    section#pricing .tableproduction .caption {
+      height: 87px;
+      border-bottom: 1px solid #3b7798;
+      line-height: 5.4375em;
+      /* 87/16 */ }
+    section#pricing .tableproduction .description {
+      height: 88px;
+      border-top: 1px solid #3b7798; }
+      section#pricing .tableproduction .description h6 {
+        line-height: 5.5em;
+        /* 88/16 */
+        color: #58b7eb; }
+  section#pricing .paddingziro {
+    padding: 0; }
+  section#pricing .col-md-3.tablelite.paddingziro {
+    position: relative;
+    top: -8px; }
+
+/* ==========================================================================
+  faq
+   ========================================================================== */
+section#faq {
+  padding: 187px 0;
+  background-color: #f3f7f9; }
+  section#faq h2 {
+    margin-bottom: 72px; }
+  section#faq h5 {
+    font-size: 1.5em;
+    /* 24/16 */
+    color: #73c38a; }
+  section#faq i {
+    color: #73c38a;
+    font-size: 1.125em;
+    /* 18/16 */ }
+  section#faq p {
+    font-size: 1.125em;
+    /* 18/16 */
+    letter-spacing: 1px; }
+
+.tabs-left, .tabs-right {
+  border-bottom: none;
+  padding-top: 2px; }
+
+.tabs-right {
+  border-left: 1px solid #ddd; }
+
+.tabs-left > li, .tabs-right > li {
+  float: none;
+  margin-bottom: 2px; }
+
+.tabs-left > li {
+  margin-right: -1px; }
+
+.tabs-right > li {
+  margin-left: -1px; }
+
+.tabs-left > li.active > a,
+.tabs-left > li.active > a:hover,
+.tabs-left > li.active > a:focus {
+  border-bottom-color: #ddd;
+  border-right-color: transparent; }
+
+.tabs-right > li.active > a,
+.tabs-right > li.active > a:hover,
+.tabs-right > li.active > a:focus {
+  border-left-color: transparent; }
+
+.tabs-left > li > a {
+  border-radius: 4px 0 0 4px;
+  margin-right: 0;
+  display: block; }
+
+.tabs-right > li > a {
+  border-radius: 0 4px 4px 0;
+  margin-right: 0; }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: #73c38a;
+  background-color: transparent;
+  border: 1px solid #ddd;
+  cursor: default;
+  border-radius: 12px; }
+
+.tabs-left > li > a {
+  border-radius: 4px 0 0 4px;
+  margin-right: 0;
+  display: block;
+  color: #a3a5a5;
+  margin-bottom: 40px; }
+
+ul.nav > li > a:hover {
+  background-color: transparent;
+  color: #73c38a;
+  border-radius: 4px 0 0 4px;
+  border: none; }
+
+/* ==========================================================================
+  footer
+   ========================================================================== */
+footer {
+  background-image: url(../img/footerbackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0 57px 0; }
+  footer .up {
+    position: relative;
+    top: -42px; }
+  footer ul {
+    padding: 0; }
+  footer p {
+    font-size: 1.125em;
+    /* 18/16 */
+    color: #ffffff; }
+  footer i {
+    opacity: .7; }
+  footer input#email {
+    background-color: transparent;
+    width: 60%;
+    font-size: 0.875em;
+    /* 14/16 */
+    font-weight: 300;
+    padding: 18px 24px;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    margin: 20px 0; }
+  footer input[type="submit"] {
+    color: #fff;
+    font-size: 1.125em;
+    /* 18/16 */
+    text-transform: uppercase;
+    margin-left: 3px;
+    padding: 12px 22px;
+    border-radius: 10px;
+    background-color: #73c38a;
+    border: none; }
+  footer ::-webkit-input-placeholder {
+    color: #ffffff; }
+  footer :-moz-placeholder {
+    /* Firefox 18- */
+    color: #ffffff; }
+  footer ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #ffffff; }
+  footer :-ms-input-placeholder {
+    color: #ffffff; }
+  footer h5 {
+    font-size: 1.5em;
+    /* 24/16 */
+    color: #73c38a;
+    line-height: 1.875em;
+    /* 30/16 */ }
+
+footer li a {
+  display: inline-block;
+  color: #EEEEEE;
+  text-align: justify;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  font-weight: 300; }
+
+footer li a:hover {
+  color: #eeeeee; }
+
+footer li {
+  list-style-type: none; }
+
+.copyright {
+  display: block;
+  line-height: 3.125em;
+  /* 50/16 */ }
+
+/* ==========================================================================
+  responsive
+   ========================================================================== */
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 2.5em;
+    /* 40/16 */
+    margin-bottom: 0; }
+
+  h3 {
+    font-size: 2.1875em;
+    /* 35/16 */
+    margin-bottom: 30px; }
+
+  button.btn.btn-primary {
+    width: 150px;
+    height: 40px;
+    font-size: 0.875em;
+    /* 14/16 */ }
+
+  header {
+    height: 600px; }
+
+  .headertext {
+    position: relative;
+    top: 150px;
+    text-align: center; }
+
+  h2 {
+    color: #0b5983;
+    font-size: 2em;
+    /* 32/16 */
+    text-transform: uppercase; }
+
+  section#simple .fa {
+    font-size: 5em;
+    /* 80/16 */
+    line-height: 1.5;
+    transform: rotate(90deg);
+    margin-bottom: 40px; }
+
+  section#userlove img {
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px; }
+
+  section#userlove {
+    text-align: center; }
+
+  section#absolute {
+    text-align: center; }
+
+  section#faq {
+    text-align: center; }
+
+  section#faq img {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px; }
+
+  .tabs-left > li > a {
+    margin-bottom: 0px; }
+
+  footer .up {
+    position: relative;
+    top: 0; }
+
+  footer {
+    text-align: center; }
+
+  section#get .btn-success {
+    font-size: 1em;
+    letter-spacing: 1px;
+    padding: 16px; }
+
+  section#userlove {
+    padding: 50px 0; }
+
+  section#twd {
+    padding: 50px 0; }
+
+  section#simple {
+    padding: 50px 0; }
+
+  section#that {
+    padding: 50px 0; }
+
+  section#absolute {
+    padding: 50px 0; }
+
+  section#get {
+    height: 255px;
+    background-image: url(../img/backgroundget.png);
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+  section#get h2 {
+    margin-top: 25px; }
+
+  section#pricing {
+    padding: 50px 0; }
+
+  section#faq {
+    padding: 50px 0; }
+
+  .tablestarter {
+    border-left: 1px solid #cdc7c7;
+    border-right: 1px solid #cdc7c7; }
+
+  section#pricing .table .caption h3 {
+    font-size: 1.25em;
+    margin: 0;
+    padding: 0; }
+
+  section#pricing h3 span {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 1.275em;
+    /* 30/16 */
+    line-height: 1.5; }
+
+  section#pricing span i {
+    position: relative;
+    top: -7px; }
+
+  section#pricing .pricingbox {
+    max-width: 350px; } }
+@media screen and (max-width: 660px) {
+  h1 {
+    font-size: 1.875em;
+    /* 30/16 */
+    margin-bottom: 0; }
+
+  h3 {
+    font-size: 1.5625em;
+    /* 25/16 */
+    margin-bottom: 20px; }
+
+  section#get p {
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 16px; } }
+@media screen and (max-width: 490px) {
+  h1 {
+    font-size: 1.25em;
+    /* 20/16 */
+    margin-bottom: 0; }
+
+  h3 {
+    font-size: 0.875em;
+    /* 14/16 */
+    margin-bottom: 20px; }
+
+  section#get p {
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 0.75em;
+    /* 12/16 */ }
+
+  h2 {
+    font-size: 1.125em;
+    /* 18/16 */ }
+
+  p {
+    font-size: 0.75em;
+    /* 12/16 */ }
+
+  h4 {
+    font-size: 1em; }
+
+  section#that h4 {
+    font-size: 1em; } }
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+.invisible {
+  visibility: hidden; }
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.clearfix:after {
+  clear: both; }
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */ }
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */ }
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+@media print {
+  *,
+  *:before,
+  *:after,
+  *:first-letter,
+  *:first-line {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster:
+       http://www.sanbeiji.com/archives/953 */
+    box-shadow: none !important;
+    text-shadow: none !important; }
+
+  a,
+  a:visited {
+    text-decoration: underline; }
+
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: ""; }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+
+  /*
+   * Printing Tables:
+   * http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
+  thead {
+    display: table-header-group; }
+
+  tr,
+  img {
+    page-break-inside: avoid; }
+
+  img {
+    max-width: 100% !important; }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+
+  h2,
+  h3 {
+    page-break-after: avoid; } }
+
+/*# sourceMappingURL=main.css.map */
